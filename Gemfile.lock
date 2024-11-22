@@ -259,7 +259,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   debug
-  devise
+  devise (~> 4.9.4)
   doorkeeper
   omniauth-google-oauth2
   pg (~> 1.1)

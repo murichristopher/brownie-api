@@ -17,7 +17,7 @@ gem "pry"
 
 gem "pry-rails"
 
-gem 'devise'
+gem 'devise', '~> 4.9.4'
 
 gem 'doorkeeper'
 
