@@ -22,6 +22,7 @@ gem 'devise', '~> 4.9.4'
 gem 'doorkeeper'
 
 gem 'omniauth-google-oauth2'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]

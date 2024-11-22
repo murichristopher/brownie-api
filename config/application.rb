@@ -48,5 +48,7 @@ module BrownieApi
     config.api_only = true
 
     config.exceptions_app = self.routes
+
+    Dotenv::Railtie.load if defined?(Dotenv::Railtie)
   end
 end
