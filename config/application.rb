@@ -30,6 +30,9 @@ module BrownieApi
     config.autoload_paths += %W(#{config.root}/app/services)
  config.middleware.use ActionDispatch::Cookies
   config.middleware.use ActionDispatch::Session::CookieStore, key: '_your_app_session'
+  
+  config.eager_load_paths -= %W(#{config.root}/app/mailers)
+
 
     # Configuration for the application, engines, and railties goes here.
     #
