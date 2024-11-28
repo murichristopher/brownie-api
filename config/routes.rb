@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   end
   
   resources :projects do
-    resources :tasks, only: %i[index create]
+    resources :tasks, only: %i[index create update]
   end
 
   # Catch-all for unknown routes (must be last)
