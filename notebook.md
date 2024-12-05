@@ -419,6 +419,7 @@ curl --get "http://localhost:4000/dashboard/users_summary" \
 - **title**: Title of the task.
 - **coins**: Coins associated with the task.
 - **user_id**: ID of the user the task is assigned to.
+- **description**: Description of the task.
 - **status**: Status of the task (`"todo"`, `"in_progress"`, `"done"`).
 - **created_at**: Timestamp when the task was created.
 - **updated_at**: Timestamp when the task was last updated.
